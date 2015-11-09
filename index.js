@@ -1,6 +1,6 @@
 var schedule = require("node-schedule");
 var shell = require('shelljs/global');
-var fs = require("fs");
+var fs = require("fs-extra");
 
 var rule = new schedule.RecurrenceRule();
 rule.dayOfWeek = [0, new schedule.Range(1, 6)];
@@ -47,3 +47,24 @@ function now (){
             + d.getMinutes() + ":"
             + d.getSeconds();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "fs-extra": "^0.26.2",
     "node-schedule": "^0.3.0",
     "shelljs": "^0.5.3"
   },

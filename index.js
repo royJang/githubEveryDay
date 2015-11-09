@@ -12,6 +12,12 @@ for(var i=1; i<60; i+=10){
 }
 rule.second = times;
 
+var userName = "royjang";
+var email = "zzl1108@hotmail.com";
+
+exec('git config --global github.user ' + userName);
+exec('git config --global github.email ' + email);
+
 var j = schedule.scheduleJob(rule, function(){
     tryToCommit();
 });

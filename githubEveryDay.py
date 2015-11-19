@@ -8,7 +8,7 @@ import sys
 import subprocess
 import os
 
-//从某一天开始
+#从某一天开始
 def get_date_string(n, startdate):
 	d = startdate - timedelta(days=n)
 	rtn = d.strftime("%a %b %d %X %Y %z -0400")
